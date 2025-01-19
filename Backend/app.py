@@ -3,7 +3,6 @@ from flask import Flask, request, jsonify
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_cors import CORS
-import joblib
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS
@@ -28,19 +27,10 @@ def get_db_connection():
         print(f"Error: {err}")
         return None
 
-# Memuat model dan vectorizer
-try:
-    model = joblib.load('knn_model.pkl')
-    tfidf_vectorizer = joblib.load('tfidf_vectorizer.pkl')
-except FileNotFoundError:
-    model = None
-    tfidf_vectorizer = None
-    print("Model atau vectorizer tidak ditemukan. Pastikan file 'knn_model.pkl' dan 'tfidf_vectorizer.pkl' tersedia.")
-
 # Endpoint Home
 @app.route('/')
 def home():
-    return jsonify({"message": "Welcome to the Microservice Sentiment Prediction!"})
+    return jsonify({"message": "Welcome to the Microservice Deep Dental!"})
 
 # Registrasi User
 @app.route('/register', methods=['POST'])
