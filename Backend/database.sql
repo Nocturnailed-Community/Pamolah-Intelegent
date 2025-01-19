@@ -22,7 +22,7 @@ CREATE TABLE users (
 CREATE TABLE diagnosis (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
-    image_path VARCHAR(255) NOT NULL,
+    image_path TEXT NOT NULL,
     complaint TEXT NOT NULL,
     diagnosis_result TEXT NOT NULL,
     diagnosis_date DATETIME DEFAULT CURRENT_TIMESTAMP,
