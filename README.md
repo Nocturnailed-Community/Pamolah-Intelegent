@@ -5,9 +5,10 @@ Pamolah Intelegent
 DEEP DENTAL: Analisis Digital untuk Mendeteksi Penyakit Gigi dengan Model Deep Learning
 
 ## **Authors**
-- Muhammad Ikhwan Fathulloh (UTB)
-- M. Hasanudin (UTB)
-- Firgiawan Faira (UTB)
+- [Muhammad Ikhwan Fathulloh (UTB)](https://github.com/Muhammad-Ikhwan-Fathulloh)
+- [M. Hasanudin (UTB)](https://github.com/Sansss8)
+- [Firgiawan Faira (UTB)](https://github.com)
+
 
 ## **Background**
 - The rapid development of technology, particularly in AI, has significant implications for dental health.
