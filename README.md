@@ -7,7 +7,7 @@ DEEP DENTAL: Analisis Digital untuk Mendeteksi Penyakit Gigi dengan Model Deep L
 ## **Authors**
 - [Muhammad Ikhwan Fathulloh (UTB)](https://github.com/Muhammad-Ikhwan-Fathulloh)
 - [M. Hasanudin (UTB)](https://github.com/Sansss8)
-- [Firgiawan Faira (UTB)](https://github.com)
+- [Firgiawan Faira (UTB)](https://github.com/FirgiawanFaira)
 
 
 ## **Background**
